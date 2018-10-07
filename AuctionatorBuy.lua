@@ -124,7 +124,7 @@ function Atr_Buy1_Onclick ()
   Atr_Buy_Confirm_Frame:Show();
 
   SortAuctionClearSort("list")
-  SortAuctionSetSort("list", "buyout")
+  SortAuctionSetSort("list", "unitprice")
   SortAuctionApplySort("list")
 
   Atr_Buy_QueueQuery(0);
